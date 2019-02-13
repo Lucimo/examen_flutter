@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> implements HomeView {
           ));
     }
     else if (_isError) {
-      return Center(child: Text("Ha habido un error"));
+      return Center(child: Text("error"));
     } else {
       return RefreshIndicator(
         onRefresh: () {
@@ -97,6 +97,7 @@ class _HomeScreenState extends State<HomeScreen> implements HomeView {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text('Questions'),),
       body: buildBody(),
     );
   }
