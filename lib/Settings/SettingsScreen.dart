@@ -49,6 +49,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 onPressed: () {
                   // Perform some action
                 },
+
+              ),
+              RaisedButton(
+                child: const Text('Answer 4'),
+                elevation: 4.0,
+                splashColor: Colors.blueGrey,
+                onPressed: () {
+                  // Perform some action
+                },
+
               ),
             ],
           ),
