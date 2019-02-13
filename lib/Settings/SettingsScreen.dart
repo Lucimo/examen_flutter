@@ -23,7 +23,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text("Question!!"
+              Text("Question"
               ),
               RaisedButton(
                 child: const Text('Answer 1'),

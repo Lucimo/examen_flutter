@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> implements HomeView {
         child: ListView.builder(
           itemBuilder: (context, position) {
             return ListTile(
-              leading: Icon(Icons.question_answer),
+              leading: Icon(Icons.access_time),
               title:
               Text(data[position].question),
               onTap: () {
