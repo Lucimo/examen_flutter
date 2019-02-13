@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_examen/Home/MyHomePage.dart';
+import 'package:flutter_examen/Home/HomeScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: HomeScreen(),
     );
   }
 }

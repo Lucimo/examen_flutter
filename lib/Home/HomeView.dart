@@ -1,7 +1,14 @@
-import 'package:flutter_examen/Home/HomePresenter.dart';
-/*
+import 'package:flutter_examen/Data.dart';
+
+
 abstract class HomeView {
-  void showList(List<Post> postList);
-fetchPost();
+  openSettingsScreen(int position);
+
+  showUsers(List<Data> users);
+
+  showLoading();
+
+  hideLoading();
+
+  showError();
 }
-*/
